@@ -1,8 +1,12 @@
 body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:#0f172a;
-    color:white;
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("greg-rakozy-oMpAz-DN-9I-unsplash (1).jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+
 }
 
 header{
