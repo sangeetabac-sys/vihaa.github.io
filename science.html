@@ -21,7 +21,7 @@
 Science is the journey of discovering how our universe works.
 From tiny particles to massive galaxies, every discovery helps us understand the world around us.
 </p>
-
+<button onclick="speakScience()">🔊 Listen to Science</button>
 <div class="topic-box">
 
 <div>
@@ -108,3 +108,15 @@ From tiny particles to massive galaxies, every discovery helps us understand the
     
 </body>
 </html>
+<script>
+function speakScience() {
+    let text = document.querySelector(".science-intro").innerText;
+
+    let speech = new SpeechSynthesisUtterance(text);
+
+    speech.rate = 1;
+    speech.pitch = 1;
+
+    window.speechSynthesis.speak(speech);
+}
+</script>
