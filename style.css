@@ -113,3 +113,29 @@ button:hover{
     font-size: 18px;
     line-height: 1.6;
 }
+/* WonderVault upgrade */
+
+.articles {
+    padding: 40px;
+    text-align: center;
+}
+
+.article-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.article {
+    width: 280px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.article:hover {
+    transform: translateY(-10px);
+}
