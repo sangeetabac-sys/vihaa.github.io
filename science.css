@@ -47,3 +47,27 @@
 .topic-box div:hover {
     transform: translateY(-8px);
 }
+.flashcards {
+    padding: 50px;
+    text-align: center;
+}
+
+.flashcard-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.flashcard {
+    width: 280px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.flashcard:hover {
+    transform: scale(1.05);
+}
